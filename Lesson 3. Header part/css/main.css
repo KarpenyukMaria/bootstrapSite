@@ -1,0 +1,192 @@
+body{
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+}
+.p0{
+	padding: 0;
+}
+/*buttons*/
+.my_btn{
+	background-color: #761c19;
+	border:none;
+	text-transform: uppercase;
+	color:white;
+}
+.btn_md{
+	padding: 10px 30px;
+}
+.btn_lg{
+	padding: 15px 50px;
+}
+header{
+	height: 680px;
+	background-image:url("../img/banner.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+nav{
+	height: 94px;
+	line-height:94px;
+}
+.menu{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.menu li{
+	display: inline-block;
+	padding: 0 30px;
+}
+.menu li a{
+	color:white;
+	text-transform:uppercase;
+	font-family: 'RalewayBold', sans-serif;
+}
+.menu li a:hover,
+.menu li a:focus{
+	text-decoration: none;
+	color:gray;
+}
+.top_line{
+	height: 1px;
+	background-color: grey;
+}
+.logo{
+	padding-top:35px;
+}
+.title_block{
+	color:white;
+	text-align: center;
+	margin-top: 100px;
+}
+.title_block h1{
+	font-family: RalewayBold,sans-serif;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.title_block p{
+	font-size: 18px;
+	margin-bottom: 100px;
+}
+.params_s{
+	padding: 95px 0;
+}
+.param_block{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.param_block i{
+	font-size: 60px;
+	color: #761c19;
+}
+.param_block h3{
+	text-transform: uppercase;
+	font-family: RalewayBold,sans-serif;
+	font-size:18px;
+}
+.param_block p{
+	font-size: 14px;
+}
+.works_block{
+	position:relative;
+}
+.image_wrap{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+	background-color: rgba(232,69,69,.6);
+	display: flex;
+	opacity: 0;
+}
+.work_descr{
+	color: white;
+	text-align: center;
+	margin:auto;
+}
+.works_block:hover .image_wrap{
+	opacity: 1;
+}
+/*download section*/
+.download_block{
+	text-align: center;
+}
+.download_block h5{
+	font-size: 24px;
+}
+.download_block p{
+	text-transform: uppercase;
+	font-family: "RalewayBold" ,sans-serif;
+}
+.download{
+	padding: 90px 0;
+}
+/*FOOTER*/
+footer{
+	padding: 70px 0;
+	background-color: #122b40;
+}
+.footer_item{
+	text-align: center;
+	margin-bottom:30px;
+}
+.footer_item h5{
+	text-transform: uppercase;
+	color: white;
+	font-size: 18px;
+	font-family: "RalewayBold", sans-serif;
+}
+.footer_item p{
+	font-size: 12px;
+	color: dimgray;
+}
+.soc_btn{
+	background-color:#122b40;
+	color: dimgray;
+	border: 1px solid dimgray;
+	width: 30px;
+	height: 30px;
+}
+.copy{
+	text-align: center;
+	padding: 40px 0;
+
+}
+
+.copy_txt {
+	color:dimgray ;
+
+}
+.call_btn{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 40px;
+	height: 40px;
+	color: white;
+	border-radius: 50%;
+	background-color: darkred;
+
+
+}
+/*MODALS*/
+#dModal{
+	background-color: white;
+	z-index: 999999;
+	width: 70%;
+	margin: 0 auto;
+}
+#dModal input{
+	margin-bottom: 15px;
+}
+#PhoneModal{
+	background-color: white;
+	width: 70%;
+	margin: 0 auto;
+	height: 30%;
+	z-index: 9999999999;
+}
+

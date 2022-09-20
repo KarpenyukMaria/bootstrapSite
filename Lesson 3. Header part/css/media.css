@@ -1,0 +1,222 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-ms-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		animation: none !important;
+	}
+
+nav{
+	height: 60px;
+	line-height:60px;
+	background-color: #202a34;
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 99999;
+}
+.top_line{
+	display:none;
+}
+.logo{
+	padding-top: 15px;
+}
+.menu_btn{
+	height: 40px;
+	width: 40px;
+	background-color: #761c19;
+	border-radius: 50%;
+	color: white;
+
+}
+.menu_btn span{
+	top:-17px;
+}
+#top_menu{
+	background-color: #122b40;
+	padding: 20px 0;
+
+}
+.menu li{
+	display:block;
+	text-align: center;
+}
+.menu li a{
+	display:block;
+}
+	.menu li a:hover{
+		background-color:white ;
+		color:black;
+	}
+.title_block{
+	margin-top: 130px;
+}
+.title_block h1{
+	font-size: 30px;
+}
+.title_block p{
+	font-size:18px;
+}
+footer{
+	padding: 30px 0;
+}
+#dModal{
+	width: 100%;
+}
+#PhoneModal{
+	width: 100%;
+}
+
+
+}
+/*extra small devices*/
+@media only screen and (max-width : 480px) {
+nav{
+	height: 60px;
+	line-height:60px;
+	background-color: #122b40;
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 99999;
+}
+.top_line{
+	display:none;
+}.logo{
+	padding-top: 15px;
+ }
+ .menu_btn{
+	 height: 40px;
+	 width: 40px;
+	 background-color: #761c19;
+	 border-radius: 50%;
+	 color: white;
+
+ }
+ .menu_top span{
+	 top:-15px;
+ }
+ #top_menu{
+	 background-color: #122b40;
+	 padding: 20px 0;
+ }
+ .menu li{
+	 display:block;
+	 text-align: center;
+ }
+ .menu li a{
+	 display:block;
+ }
+	.menu li a:hover{
+		background-color:white ;
+		color:black;
+	}
+.title_block{
+	margin-top: 130px;
+}
+.title_block h1{
+	font-size: 30px;
+}
+.title_block p{
+	font-size:18px;
+}
+.footer{
+	padding: 30px 0;
+}
+#dModal{
+	width: 100%;
+}
+#PhoneModal{
+	width: 100%;
+}
+
+}
+/*iphone*/
+@media only screen and (max-width : 320px) {
+	nav{
+		height: 60px;
+		line-height:60px;
+		background-color: #122b40;
+		position:fixed;
+		top:0;
+		left:0;
+		width: 100%;
+		z-index: 99999;
+	}
+	.top_line{
+		display:none;
+	}.logo{
+		 padding-top: 15px;
+	 }
+	.menu_btn{
+		height: 40px;
+		width: 40px;
+		background-color: #761c19;
+		border-radius: 50%;
+		color: white;
+
+	}
+	.menu_top span{
+		top:-15px;
+	}
+	#top_menu{
+		background-color: #122b40;
+		padding: 20px 0;
+	}
+	.menu li{
+		display:block;
+		text-align: center;
+	}
+	.menu li a{
+		display:block;
+	}
+	.menu li a:hover{
+		background-color:white ;
+		color:black;
+	}
+	.title_block{
+		margin-top: 130px;
+	}
+	.title_block h1{
+		font-size: 30px;
+	}
+	.title_block p{
+		font-size:18px;
+	}
+	.footer{
+		padding: 30px 0;
+	}
+	#dModal{
+		width: 100%;
+	}
+	#PhoneModal{
+		width: 100%;
+	}
+
+}
